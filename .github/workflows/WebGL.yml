@@ -1,0 +1,33 @@
+name: Build Utopia Web
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+
+    - name: Install Unity
+      uses: game-ci/unity-installer@v1.2.0
+      with:
+        unityVersion: 2019.4.17f1
+        components: WebGL
+
+    - name: Build Web Game
+      run: |
+        /opt/Unity/Editor/Unity \
+          -batchmode \
+          -nographics \
+          -quit \
+          -projectPath $PWD \
+          -executeMethod BuildScript.PerformWebBuild
+
+    - name: Archive Artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: MyWebGame
+        path: Build/WebGL

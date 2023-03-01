@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2092c4f1f50bc34ca0d925b4c5ae1d2, type: 3}
+  m_Name: SpeedShoes
+  m_EditorClassIdentifier:
+  _displayName: Speed Shoes
+  _icon: {fileID: 0}
+  _description: Description.
+  _tags:
+    _tags: []
+  _display: 1
+  _persistent: 0
+  _duration: 20
+  _periodDuration: 0
+  _maximumQuantity: 1
+  _modifiers:
+  - _name: Ground Speed
+    _type: 1
+    _value: 0.5
+  - _name: Ground Acceleration
+    _type: 1
+    _value: 1
+  - _name: Ground Deceleration
+    _type: 1
+    _value: 1
+  - _name: Ground Brake
+    _type: 1
+    _value: 1
+  - _name: Ground Friction
+    _type: 1
+    _value: 1

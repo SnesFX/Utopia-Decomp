@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02b5370594d2fb04fb7d15b21092b816, type: 3}
+  m_Name: Spindash
+  m_EditorClassIdentifier:
+  _displayName: Spindash
+  _icon: {fileID: 0}
+  _description: Description
+  _tags:
+    _tags: []
+  _blockedByTags:
+    _tags: []
+  _cancelWithTags:
+    _tags: []
+  _requiredTags:
+    _tags: []
+  _vitalRequirements: []
+  _itemRequirements: []
+  _groundRequirement: 0
+  _speedRequirement: 0
+  _speedRequirementValue: 0
+  _canCancel: 0
+  _canInterrupt: 0
+  _chargeRate: 5
+  _chargeFalloffRate: 5
+  _chargeMin: 25
+  _chargeMax: 52
+  _rollEffectThreshold: 25
+  _chargePitchMin: 1
+  _chargePitchMax: 1.5
+  _rollEffectName: Roll
+  _chargeEffectName: Spindash Charge
+  _sustainChargeEffectName: Spindash Sustain Charge
+  _spindashEffectName: Spindash
+  _spindashEffectThreshold: 10
+  _releaseRollOnDisengage: 1
