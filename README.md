@@ -2,6 +2,8 @@
 
 * Silly Vita port branch moment
 
+* [Download](https://github.com/SnesFX/Sonic-Utopia-Vita-Builds/releases)
+
 # Additions
 
 * SA2 Test Stage Thing
