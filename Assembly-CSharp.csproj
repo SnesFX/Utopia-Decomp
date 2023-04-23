@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{B8B0A096-3675-B897-D486-CA6A037FA3AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_19;UNITY_2018_2;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\2018.2.19f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\2018.2.19f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AmplifyMotion\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Ability.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AbilityBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AbilityEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AbilityMisc.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AbilityObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AbilityRequirementType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Actor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorAbilityComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorAbilityEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorAbilityEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorChangedEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorComponent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorDeathEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorGenericEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorImpactEffectEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorImpactEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorInventory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorPhysics.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorPortalEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorPortalEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorStatistics.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ActorTickEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AIController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\ClothState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\MotionState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\ObjectType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\ParticleState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\Quality.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\SkinnedState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\SolidState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\VersionInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotion\WorkerThreadPool.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotionCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotionEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotionEffectBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotionObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotionObjectBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AmplifyMotionPostProcess.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AudioSource3DEffects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AvatarStateIndex.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BigDust.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Billboard.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BillboardGameObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BokehRenderer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Breath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Bridge.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraStateThirdPerson.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Character.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterAnimatorEffectTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterAvatar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterMotor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterMotorEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterMotorEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterStateDead.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterStateDefault.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterStateFly.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterStateSelection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CharacterStateSwim.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CheckpointColorHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Context.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextChanged.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextDeath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextDespawn.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextGeneric.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextImpact.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextImpactApply.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextImpactEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextImpactEffectApply.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextImpactEffectIncoming.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextImpactHit.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextImpactIncoming.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextRespawn.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ContextTick.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Controller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Cooldown.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CooldownExpiredEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CooldownExpiredEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Currency.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DeathType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DefaultDeath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DefaultMotionData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DeluxeFilmicCurve.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DreamFramework.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DreamPhysics.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Drown.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DrowningSFX.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Element.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnemyBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Equipment.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FloatingPlatforms.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FluidVolume.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FlyMotionData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FogDensity.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GameMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GravityData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GravityEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GravityField.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GravityFieldType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GravityInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GroundData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Health.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Impactable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactApplicationData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffectApplicationData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffectBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffectExpiredEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffectExpiredEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffectObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffectPersistent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffects\Damage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffects\Death.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactEffectSetupData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactGameObjectEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactSetupData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ImpactType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InventoryItemEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Item.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ItemDatabase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ItemProperty.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ItemQuality.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ItemQualityDatabase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ItemRequirement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ModifierEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MovingSpikes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectPlacer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectPlacerEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Pawn.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PawnPossessedEventArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PawnPossessedEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PhysicsSubstance.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PhysicsSubstanceType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PhysicsVolume.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PhysicsVolumeData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PhysicsVolumeEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PhysicsVolumeInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\PCTrail.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\PCTrailPoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\PCTrailRendererData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\SmokePlume.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\SmokeTrail.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\SmokeTrailPoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\SmoothTrail.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\Trail.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Effects\Trails\TrailRenderer_Base.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Generic\VersionInformation.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Utillities\CircularBuffer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Utillities\GizmosExtra.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PigeonCoopToolkit\Utillities\Range.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Portal.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PortalData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PortalDataEntry.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Projectile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomAudioClip.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SceneItem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ScriptableObjectDatabase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SmallAnimal.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Badnik.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\BadnikPatrolController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\BadnikProjectile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Barrier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Bubble.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\BubbleSpawner.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Buzzbomber.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\BuzzbomberPatrolController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\CharacterAbilityInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\CharacterStateDamage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\CharacterStatePeelout.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\CharacterStateRoll.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Checkpoint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\CollisionEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\ContextCheckpointActivated.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\ContextGoal.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Crabmeat.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\CrabmeatPatrolController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\CullingHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\CullingObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Explosion.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Flinch.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\FlinchEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\GameModeTravel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\GameplayHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\GoalObject.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\GoalTriggeredArgs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\HomingAttack.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\HomingAttackTarget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Invincible.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Invulnerable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\ItemDisplayPanel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\MenuOptions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\MenuPause.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Monitor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Motobug.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\MotobugPatrolController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Newtron.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\NewtronPatrolController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Peelout.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\PlayerPref.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\RingCollisionEffects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\RingDefense.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\RingDropper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\RingDropperThresholdEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\SceneHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\SceneRing.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\SceneRingHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\SelectMonitorPrefab.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\SpecialEffectPhysicalContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Spikes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\Spindash.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\SpinJump.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\TouchDamage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\UserCharacterControls.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\UserCharacterSelection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\UserControlOptions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\UserOptions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Sonic\UserViewControls.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpecialEffect.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpecialEffectAnimator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SpecialEffectHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Spring.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Station.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Statistic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StatisticModifier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StatisticModifierSetupData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StatisticModifierType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StdFireProjectile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StdItemGiver.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StdProjectile.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SwimMotionData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TagContainer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UBHelper.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateBloom.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UltimateBloomPathLocator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\User.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UserInterface.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Utility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UtopiaSonicRunHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Vehicle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Vital.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\VitalRequirement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WaterfallDisabler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Ty&apos;s Code\StageSelect.cs" />
+     <None Include="Assets\Shader\SSAA.shader" />
+     <None Include="Assets\Resources\UltimateBloomCombineFlareDirt.shader" />
+     <None Include="Assets\Shader\DepthOfFieldDX11.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Shader\Internal-DepthNormalsTexture.shader" />
+     <None Include="Assets\Shader\DLAA.shader" />
+     <None Include="Assets\Shader\FXAAPreset2.shader" />
+     <None Include="Assets\Resources\MotionBlurSM2.shader" />
+     <None Include="Assets\Shader\FXAAPreset3.shader" />
+     <None Include="Assets\Shader\FXAA2.shader" />
+     <None Include="Assets\Resources\Debug.shader" />
+     <None Include="Assets\Resources\UltimateBloomShader.shader" />
+     <None Include="Assets\Resources\MotionBlurSM3.shader" />
+     <None Include="Assets\Resources\Combine.shader" />
+     <None Include="Assets\Resources\SolidVectors.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Resources\UltimateFlareMask.shader" />
+     <None Include="Assets\Resources\SkinnedVectors.shader" />
+     <None Include="Assets\Resources\ClothVectors.shader" />
+     <None Include="Assets\Resources\UltimateSampling.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Shader\FXAA3Console.shader" />
+     <None Include="Assets\Resources\ReprojectionVectors.shader" />
+     <None Include="Assets\Shader\FrameDebuggerRenderTargetDisplay.shader" />
+     <None Include="Assets\Resources\UltimateBloomBokehMisc.shader" />
+     <None Include="Assets\Shader\NFAA.shader" />
+     <None Include="Assets\Shader\SimpleClear.shader" />
+     <None Include="Assets\Resources\UltimateFlareDouble.shader" />
+     <None Include="Assets\Shader\SSAOShader.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Shader\Shader.shader" />
+     <None Include="Assets\Resources\UltimateBloomCombine.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Resources\UltimateFlareSingle.shader" />
+     <None Include="Assets\Resources\UltimateBrightpassMask.shader" />
+     <None Include="Assets\Resources\UltimateFlareMeshShader.shader" />
+     <None Include="Assets\Shader\SunShaftsComposite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Resources\UltimateBokehTexture.shader" />
+     <None Include="Assets\Shader\DepthOfFieldScatter.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Resources\Dilation.shader" />
+     <None Include="Assets\Shader\Internal-StencilWrite.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Shader\FXWater4Advanced.shader" />
+     <None Include="Assets\Shader\Internal-MotionVectors.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Shader\Tonemapper.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Shader\Internal-ScreenSpaceShadows.shader" />
+     <None Include="Assets\Resources\GPUSkinDeform.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Resources\Depth.shader" />
+     <None Include="Assets\Resources\UltimateBloomMixer.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+ <Reference Include="UnityEditor.StandardEvents">
+ <HintPath>C:/Users/james/Downloads/Unity/Projects/Utopia Vita/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/james/Downloads/Unity/Projects/Utopia Vita/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/james/Downloads/Unity/Projects/Utopia Vita/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/james/Downloads/Unity/Projects/Utopia Vita/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CloudWebServicesModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FacebookModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticlesLegacyModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/james/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/james/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>C:/Program Files/Unity/2018.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1947F20F-753E-8075-B858-74CC53A26263}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

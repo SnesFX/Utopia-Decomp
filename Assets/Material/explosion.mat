@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: explosion
-  m_Shader: {fileID: 4800000, guid: f5eff66826a334a4b81bc872d4b290f4, type: 3}
+  m_Shader: {fileID: 4800000, guid: c89be6191a6769148868fbe29351a909, type: 3}
   m_ShaderKeywords: _ALPHATEST_ON _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: 2450
@@ -43,13 +43,13 @@ Material:
     - first:
         name: _EmissionMap
       second:
-        m_Texture: {fileID: 2800000, guid: 08b5cef2b103c3e4eaec3552ed33d100, type: 3}
+        m_Texture: {fileID: 2800000, guid: e5679864664825145a47785efe3fc6bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 08b5cef2b103c3e4eaec3552ed33d100, type: 3}
+        m_Texture: {fileID: 2800000, guid: e5679864664825145a47785efe3fc6bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:

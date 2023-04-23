@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1524856832143686}
+  m_RootGameObject: {fileID: 1670420430851114}
   m_IsPrefabParent: 1
---- !u!1 &1524856832143686
+--- !u!1 &1670420430851114
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4043745730173600}
-  - 114: {fileID: 114049026196292847}
-  - 82: {fileID: 82271507867815439}
+  - 4: {fileID: 4085846548257042}
+  - 114: {fileID: 114388734317370564}
+  - 82: {fileID: 82939565269439996}
   m_Layer: 0
   m_Name: Effect - Drown
   m_TagString: Untagged
@@ -28,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4043745730173600
+--- !u!4 &4085846548257042
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1524856832143686}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670420430851114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 32.826454, y: 5.7532086, z: -16.670055}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -41,15 +41,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114049026196292847
+--- !u!114 &114388734317370564
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1524856832143686}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670420430851114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 204c5274e4ad0944780f3c91f110cbe0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _tagContainer:
@@ -62,16 +62,16 @@ MonoBehaviour:
     m_Bits: 0
   _attachStartHeight: 0.1
   _attachDistance: 0.5
---- !u!82 &82271507867815439
+--- !u!82 &82939565269439996
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1524856832143686}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1670420430851114}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 5d2b0d979c8840c4db9d793a8db2a41f, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 05f68b8fff1474e488134bcec6e10d9c, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300000, guid: 21d8ff100abbd80418ae0a5080159335, type: 2}
+  m_audioClip: {fileID: 8300000, guid: a528009d4ed14e448a86fd4be98e028f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.6
   m_Pitch: 1

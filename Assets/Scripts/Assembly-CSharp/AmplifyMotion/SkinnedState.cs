@@ -109,7 +109,7 @@ namespace AmplifyMotion
 			{
 				if (m_renderer.quality == SkinQuality.Auto)
 				{
-					m_weightCount = (int)QualitySettings.skinWeights;
+					m_weightCount = (int)QualitySettings.blendWeights;
 				}
 				else
 				{

@@ -2,10 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1045 &1
 EditorBuildSettings:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
+  serializedVersion: 2
   m_Scenes:
   - enabled: 1
     path: Assets/Games/Sonic Utopia/Scenes/Main Menu/Main Menu.unity
+    guid: d3da8168727266648befb187eb2e26b0
   - enabled: 1
+    path: Assets/SA2B Test Level/Scene/SA2B Test Stage.unity
+    guid: dcf7184c44766a444abdf7899ef5be0b
+  - enabled: 0
     path: Assets/Sandbox/Sandbox.unity
+    guid: 80598d152a013fd4fbfab4bf491feb12
+  m_configObjects: {}

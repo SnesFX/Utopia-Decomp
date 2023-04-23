@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1438906264945108}
+  m_RootGameObject: {fileID: 1590389718414332}
   m_IsPrefabParent: 1
---- !u!1 &1438906264945108
+--- !u!1 &1590389718414332
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4012960815182760}
-  - 114: {fileID: 114333389299688335}
-  - 114: {fileID: 114707639405948648}
-  - 82: {fileID: 82704417414747876}
+  - 4: {fileID: 4655281924535056}
+  - 114: {fileID: 114301767194600524}
+  - 114: {fileID: 114752238609379966}
+  - 82: {fileID: 82107229001224217}
   m_Layer: 0
   m_Name: Effect - Footstep
   m_TagString: Untagged
@@ -29,12 +29,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4012960815182760
+--- !u!4 &4655281924535056
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1438906264945108}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590389718414332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.2667217, y: -0.00011427016, z: 639.04504}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -42,15 +42,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114333389299688335
+--- !u!114 &114301767194600524
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1438906264945108}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590389718414332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 204c5274e4ad0944780f3c91f110cbe0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _tagContainer:
@@ -63,32 +63,32 @@ MonoBehaviour:
     m_Bits: 1
   _attachStartHeight: 0.1
   _attachDistance: 0.5
---- !u!114 &114707639405948648
+--- !u!114 &114752238609379966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1438906264945108}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590389718414332}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c899d051737a1b4f8ef5064096bba06, type: 3}
+  m_Script: {fileID: 11500000, guid: b511c4a8b05728ea1421d88d40cd8809, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _audioClips:
-  - {fileID: 8300000, guid: d472db16f0f373f4ba1da638fa9aaac1, type: 3}
-  - {fileID: 8300000, guid: 345d2ac6277f77a42a52f0dc97c4428c, type: 3}
-  - {fileID: 8300000, guid: f65dd010f0ab43443b9f987f16fb5a82, type: 3}
-  - {fileID: 8300000, guid: ea5716275c9f6bd409bb65eb52252369, type: 3}
---- !u!82 &82704417414747876
+  - {fileID: 8300000, guid: 2621c520c99d44349949f0b1222aabf3, type: 3}
+  - {fileID: 8300000, guid: 3ef0c6c45eeecc241aca85238ec2ba6c, type: 3}
+  - {fileID: 8300000, guid: fe763b5448b1a1f4fb0e1604ec13fb1d, type: 3}
+  - {fileID: 8300000, guid: 8680ba5667c7b6c419f737a5f26bd0a1, type: 3}
+--- !u!82 &82107229001224217
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1438906264945108}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590389718414332}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 5d2b0d979c8840c4db9d793a8db2a41f, type: 2}
-  m_audioClip: {fileID: 8300000, guid: d472db16f0f373f4ba1da638fa9aaac1, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300000, guid: 21d8ff100abbd80418ae0a5080159335, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 2621c520c99d44349949f0b1222aabf3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1

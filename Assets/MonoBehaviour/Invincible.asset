@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b00166280f97b404389e964c9f1fbbe4, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ac2ac8cb1609669e3d970bedb0df130, type: 3}
   m_Name: Invincible
   m_EditorClassIdentifier:
   _displayName: Invincibility
@@ -21,14 +21,14 @@ MonoBehaviour:
   _duration: 15
   _periodDuration: 0
   _maximumQuantity: 0
-  _invincibilityEffect: {fileID: 1139357410573662, guid: 351d60089cd48f24baa3ea90f71c69d4, type: 2}
+  _invincibilityEffect: {fileID: 1196355585619620, guid: 5fa8dc05137440643bcd3a48911421f8, type: 2}
   _impact:
     _requiredTags:
       _tags: []
     _blockedByTags:
       _tags: []
     _effects:
-    - _behaviour: {fileID: 11400000, guid: f22baec151fa34c4aa1c5bb0c3fcdc85, type: 2}
+    - _behaviour: {fileID: 11400000, guid: be65e877e5e1bf44499171f05d015830, type: 2}
       _magnitude: 1000
       _quantity: 0
       _duration: 0

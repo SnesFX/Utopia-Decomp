@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1945139530566398}
+  m_RootGameObject: {fileID: 1160267818678061}
   m_IsPrefabParent: 1
---- !u!1 &1945139530566398
+--- !u!1 &1160267818678061
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4246157134033048}
-  - 114: {fileID: 114964219780644527}
-  - 82: {fileID: 82190089743909643}
+  - 4: {fileID: 4646200329458810}
+  - 114: {fileID: 114840099731812318}
+  - 82: {fileID: 82668233411485670}
   m_Layer: 0
   m_Name: Ring Drop B
   m_TagString: Untagged
@@ -28,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4246157134033048
+--- !u!4 &4646200329458810
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1945139530566398}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160267818678061}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -41,15 +41,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114964219780644527
+--- !u!114 &114840099731812318
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1945139530566398}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160267818678061}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 204c5274e4ad0944780f3c91f110cbe0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _tagContainer:
@@ -62,16 +62,16 @@ MonoBehaviour:
     m_Bits: 0
   _attachStartHeight: 0
   _attachDistance: 0
---- !u!82 &82190089743909643
+--- !u!82 &82668233411485670
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1945139530566398}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160267818678061}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 5d2b0d979c8840c4db9d793a8db2a41f, type: 2}
-  m_audioClip: {fileID: 8300000, guid: b677ca87851630e4a9c61eb91361b02a, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300000, guid: 21d8ff100abbd80418ae0a5080159335, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 3fe1a7be8a28a4b45b799215f2930321, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

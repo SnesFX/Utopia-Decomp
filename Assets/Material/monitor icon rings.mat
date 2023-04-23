@@ -42,7 +42,7 @@ Material:
     - first:
         name: _EmissionMap
       second:
-        m_Texture: {fileID: 2800000, guid: 2cc31088b845ecc4cbdd13688c9493c6, type: 3}
+        m_Texture: {fileID: 2800000, guid: ee3274cb9821b09419a4b7138ecffd17, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:

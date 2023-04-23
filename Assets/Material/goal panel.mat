@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: goal panel
-  m_Shader: {fileID: 4800000, guid: f5eff66826a334a4b81bc872d4b290f4, type: 3}
+  m_Shader: {fileID: 4800000, guid: c89be6191a6769148868fbe29351a909, type: 3}
   m_ShaderKeywords:
   m_LightmapFlags: 5
   m_CustomRenderQueue: -1
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: 7f49d72c71c39744ba644ab867c30ebe, type: 3}
+        m_Texture: {fileID: 2800000, guid: 220d5ced5f5534c409980fd47b928cde, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:

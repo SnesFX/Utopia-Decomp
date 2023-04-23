@@ -7,10 +7,10 @@ AudioMixerController:
   m_PrefabInternal: {fileID: 0}
   m_Name: Audio Mixer
   m_OutputGroup: {fileID: 0}
-  m_MasterGroup: {fileID: 24300000, guid: d24f546cabb380d40ba6a734644c7d79, type: 2}
+  m_MasterGroup: {fileID: 24300000, guid: 3c0356d656a71374a922595ab8a14b54, type: 2}
   m_Snapshots:
-  - {fileID: 24500000, guid: 98d4069332188a2469a63e49993b2396, type: 2}
-  m_StartSnapshot: {fileID: 24500000, guid: 98d4069332188a2469a63e49993b2396, type: 2}
+  - {fileID: 24500000, guid: 71cfd7735b275554692538082552f04d, type: 2}
+  m_StartSnapshot: {fileID: 24500000, guid: 71cfd7735b275554692538082552f04d, type: 2}
   m_SuspendThreshold: 0
   m_EnableSuspend: 1
   m_UpdateMode: 0

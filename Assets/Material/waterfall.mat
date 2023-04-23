@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: waterfall
-  m_Shader: {fileID: 4800000, guid: 3ae605f26de0a9c40b42443a1ebffab0, type: 3}
+  m_Shader: {fileID: 4800000, guid: e7ce7d9d3c2dda7438f2b1dc534d5952, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -18,7 +18,7 @@ Material:
     - first:
         name: _BumpMap
       second:
-        m_Texture: {fileID: 2800000, guid: 10716e425518675428cb728d882c6b5a, type: 3}
+        m_Texture: {fileID: 2800000, guid: ab6f2fdef8a09fc4db16850eccfda78a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
@@ -30,7 +30,7 @@ Material:
     - first:
         name: _ReflectionTex
       second:
-        m_Texture: {fileID: 2800000, guid: 0d7976626b39d224cb2f8d0b09c7a885, type: 3}
+        m_Texture: {fileID: 2800000, guid: d487b7f4b343b7f4ab458742d5813f32, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:

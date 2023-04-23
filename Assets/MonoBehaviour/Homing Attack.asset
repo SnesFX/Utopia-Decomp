@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d785355b5a56ae41b1a6ef429e8d8ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 84b2977f806171c096a9dce6c087d93e, type: 3}
   m_Name: Homing Attack
   m_EditorClassIdentifier:
   _displayName: Homing Attack
