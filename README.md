@@ -20,4 +20,6 @@
 
 * [SnesFX](https://twitter.com/SnesFX) - The decompilation
 
+* [PatnosD](https://twitter.com/patnos_d) - Helping with the camera shader bug
+
 * Sonic Utopia Devs - Making the amazing fangame!
