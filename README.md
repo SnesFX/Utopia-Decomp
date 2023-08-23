@@ -10,7 +10,9 @@
 
 # Requirements
 
-* [Github Desktop](https://desktop.github.com/) - USE THIS TO DOWNLOAD/CLONE BECAUSE OF GIT LFS STUFF 
+* [Github Desktop](https://desktop.github.com/) - USE THIS TO DOWNLOAD/CLONE BECAUSE OF GIT LFS STUFF
+
+* If the Above doesn't work use [This](https://bitbucket.org/ty_1991/utopia-decomp/src/main/) instead.
 
 * [Unity Hub](https://unity.com/download)
 
