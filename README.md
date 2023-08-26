@@ -12,7 +12,7 @@
 
 * [Github Desktop](https://desktop.github.com/) - USE THIS TO DOWNLOAD/CLONE BECAUSE OF GIT LFS STUFF
 
-* If the Above doesn't work use [This](https://bitbucket.org/ty_1991/utopia-decomp/src/main/) instead.
+* If the Above doesn't work use [This](https://www.mediafire.com/file/8b5phxhdbs21y37/Utopia+Decomp+Backup.zip/file) instead. MAKE SURE TO READ THE README.
 
 * [Unity Hub](https://unity.com/download)
 
