@@ -8,6 +8,14 @@
 
 * Discord Rich Presence Support
 
+# Ports
+
+* [PsVita](https://github.com/SnesFX/Sonic-Utopia-Vita-Builds/releases/tag/final)
+
+* [Wii U](https://github.com/ghbbeep/Utopia-Decomp-WiiU)
+
+* [Android](https://github.com/SnesFX/Utopia-Decomp/releases/tag/mobil)
+
 # Requirements
 
 * [Github Desktop](https://desktop.github.com/) - USE THIS TO DOWNLOAD/CLONE BECAUSE OF GIT LFS STUFF
