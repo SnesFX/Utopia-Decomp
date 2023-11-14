@@ -10,11 +10,11 @@
 
 # Ports
 
-* [PsVita](https://github.com/SnesFX/Sonic-Utopia-Vita-Builds/releases/tag/final) - By TyDev
+* [PsVita](https://github.com/SnesFX/Sonic-Utopia-Vita-Builds/releases/tag/final) - By BlitzDotCS
 
-* [Wii U](https://github.com/ghbbeep/Utopia-Decomp-WiiU) - By MemeMaster9000 & TyDev
+* [Wii U](https://github.com/ghbbeep/Utopia-Decomp-WiiU) - By MemeMaster9000 & BlitzDotCS
 
-* [Android](https://github.com/SnesFX/Utopia-Decomp/releases/tag/mobil) - By TyDev
+* [Android](https://github.com/SnesFX/Utopia-Decomp/releases/tag/mobil) - By BlitzDotCS
 
 # Requirements
 
