@@ -14,6 +14,8 @@
 
 * [Wii U](https://github.com/ghbbeep/Utopia-Decomp-WiiU) - By MemeMaster9000 & BlitzDotCS
 
+* [Nintendo Switch](https://github.com/SnesFX/Utopia-Decomp/tree/switch) By BlitzDotCS (STILL A WORK IN PROGRESS)
+
 * [Android](https://github.com/SnesFX/Utopia-Decomp/releases/tag/mobil) - By BlitzDotCS
 
 # Requirements
