@@ -2,6 +2,8 @@
 
 * This branch was made for my Sonic Utopia Nintendo Switch Port which is based off of my decompilation.
 
+* You can download the port from the releases page of [this repo](https://github.com/SnesFX/Utopia-Switch-Builds/tree/main)
+
 # Requirements (to build)
 
 * [Github Desktop](https://desktop.github.com/) - USE THIS TO DOWNLOAD/CLONE BECAUSE OF GIT LFS STUFF
