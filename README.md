@@ -4,6 +4,8 @@
 
 * So uhh you can do whatever with this besides claim it as your own work lmao
 
+* IF YOU USE THIS IN YOUR PROJECT, OR IF YOU RE-UPLOAD THIS, PLEASE GIVE ME AND THE ORIGINAL DEVS CREDITS.
+
 # Additions
 
 * Discord Rich Presence Support
