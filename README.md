@@ -14,9 +14,11 @@
 
 * [Wii U](https://github.com/ghbbeep/Utopia-Decomp-WiiU) - By MemeMaster9000 & Nat
 
-* [Nintendo Switch](https://github.com/SnesFX/Utopia-Decomp/tree/switch) By Nat (STILL A WORK IN PROGRESS)
+* [Nintendo Switch](https://github.com/SnesFX/Utopia-Decomp/tree/switch) By Nat - DLC COMING SOON
 
-* [Android](https://github.com/SnesFX/Utopia-Decomp/releases/tag/mobil) - By Nat
+* [MacOS](https://github.com/SnesFX/Utopia-Decomp/tree/macOS) - By Nat - COMING SOON
+
+* [Mobile](https://github.com/SnesFX/Utopia-Decomp/tree/mobile) - By Nat - COMING SOON
 
 # Requirements
 
