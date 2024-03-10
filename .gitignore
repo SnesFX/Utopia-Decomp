@@ -4,3 +4,5 @@ Builds/
 Logs/
 SwitchIL2CPPCache/
 SwitchIL2CPPStats/
+*.nsp
+*.nss
