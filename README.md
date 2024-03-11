@@ -12,7 +12,7 @@
 
 * [Unity Hub](https://unity.com/download)
 
-* Unity 2019.3.9f1 with Nintendo Switch Support
+* Unity 2020.1.0b4 with Nintendo Switch Support
 
 * [Visual Studio Code](https://code.visualstudio.com)
 
