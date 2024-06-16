@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 02b5370594d2fb04fb7d15b21092b816, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a161533e65f6cd3ce38451aa1c22516, type: 3}
   m_Name: Spindash
   m_EditorClassIdentifier:
   _displayName: Spindash

@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f237015c94b345c4a9afd52d30e3397e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7d72356c2d71d6a28ee0eeda2970d4e8, type: 3}
   m_Name: Ring Defense
   m_EditorClassIdentifier:
   _displayName: Ring Defense
@@ -30,14 +30,14 @@ MonoBehaviour:
   _canCancel: 0
   _canInterrupt: 0
   _invulnerableEffect:
-    _behaviour: {fileID: 11400000, guid: fdaed76f518ae9c4c9ae0b1050183bfb, type: 2}
+    _behaviour: {fileID: 11400000, guid: 068c9e1b0f68cec49af7acac7c5b3037, type: 2}
     _magnitude: 0
     _quantity: 0
     _duration: 5
   _damageEffectName: Damage
   _recoilAngle: 65
   _recoilSpeed: 20
-  _rings: {fileID: 11400000, guid: b3d88b1e9ce05fd44acc9d02a4d95dec, type: 2}
-  _ringDropper: {fileID: 114815060488837937, guid: 1f46a7e6d3393d04896ffcc9f9204efe, type: 2}
+  _rings: {fileID: 11400000, guid: 077d764fa07d76345820fd4f73e46d8b, type: 2}
+  _ringDropper: {fileID: 114754765310037835, guid: a4af2dab3c34f1b4d9970ae162dcd92a, type: 2}
   _ringDropperOffset: {x: 0, y: 0.5, z: 0}
   _maxRingsDropped: 64

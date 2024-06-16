@@ -3,24 +3,24 @@
 --- !u!1001 &100100000
 Prefab:
   serializedVersion: 2
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1735213553646866}
+  m_RootGameObject: {fileID: 1553326812076853}
   m_IsPrefabParent: 1
---- !u!1 &1735213553646866
+--- !u!1 &1553326812076853
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4640846760182458}
-  - 114: {fileID: 114665749420585894}
-  - 82: {fileID: 82624105825683204}
+  - 4: {fileID: 4053339372316042}
+  - 114: {fileID: 114465986141217908}
+  - 82: {fileID: 82708895366089625}
   m_Layer: 0
   m_Name: Newtron Transform
   m_TagString: Untagged
@@ -28,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4640846760182458
+--- !u!4 &4053339372316042
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1735213553646866}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553326812076853}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -129.18915, y: -13.57971, z: 593.2505}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -41,15 +41,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114665749420585894
+--- !u!114 &114465986141217908
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1735213553646866}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553326812076853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 204c5274e4ad0944780f3c91f110cbe0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _tagContainer:
@@ -62,16 +62,16 @@ MonoBehaviour:
     m_Bits: 0
   _attachStartHeight: 0.1
   _attachDistance: 0.5
---- !u!82 &82624105825683204
+--- !u!82 &82708895366089625
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1735213553646866}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553326812076853}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 5d2b0d979c8840c4db9d793a8db2a41f, type: 2}
-  m_audioClip: {fileID: 8300000, guid: a3ef845eace85214bad486b0ce5b4db3, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300012, guid: 3b4c381c34fe8a84a93335baa62e1701, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 94e9b87ea8c4a6944840a9cfdc5e01a5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.9
   m_Pitch: 1

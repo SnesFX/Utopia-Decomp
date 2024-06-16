@@ -585,14 +585,17 @@ public class AmplifyMotionEffectBase : MonoBehaviour
 		GameObject gameObject = null;
 		if (obj.name == auxCameraName)
 		{
-			return obj;
+			gameObject = obj;
 		}
-		foreach (Transform item in obj.transform)
+		else
 		{
-			gameObject = RecursiveFindCamera(item.gameObject, auxCameraName);
-			if (gameObject != null)
+			foreach (Transform item in obj.transform)
 			{
-				return gameObject;
+				gameObject = RecursiveFindCamera(item.gameObject, auxCameraName);
+				if (gameObject != null)
+				{
+					break;
+				}
 			}
 		}
 		return gameObject;

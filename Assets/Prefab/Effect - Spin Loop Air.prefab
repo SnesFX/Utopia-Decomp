@@ -3,25 +3,25 @@
 --- !u!1001 &100100000
 Prefab:
   serializedVersion: 2
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1861208193110101}
+  m_RootGameObject: {fileID: 1926759842279663}
   m_IsPrefabParent: 1
---- !u!1 &1861208193110101
+--- !u!1 &1926759842279663
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4560816156824476}
-  - 114: {fileID: 114469039194067982}
-  - 114: {fileID: 114698094213752691}
-  - 82: {fileID: 82448428465512195}
+  - 4: {fileID: 4906173335449858}
+  - 114: {fileID: 114675533529249624}
+  - 114: {fileID: 114123493402723086}
+  - 82: {fileID: 82334826693968428}
   m_Layer: 0
   m_Name: Effect - Spin Loop Air
   m_TagString: Untagged
@@ -29,12 +29,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4560816156824476
+--- !u!4 &4906173335449858
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1861208193110101}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926759842279663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.2667217, y: -0.00011427016, z: 639.04504}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -42,15 +42,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114469039194067982
+--- !u!114 &114675533529249624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1861208193110101}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926759842279663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 204c5274e4ad0944780f3c91f110cbe0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _tagContainer:
@@ -63,15 +63,15 @@ MonoBehaviour:
     m_Bits: 0
   _attachStartHeight: 0
   _attachDistance: 0
---- !u!114 &114698094213752691
+--- !u!114 &114123493402723086
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1861208193110101}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926759842279663}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 699be726752adbb40b8d8aee10a2c324, type: 3}
+  m_Script: {fileID: 11500000, guid: 3e288d08ef29bed50f5adfc8e5c51787, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   baseVelocity: 35
@@ -80,16 +80,16 @@ MonoBehaviour:
   decreaseVolume: 1
   increasePitch: 1
   decreasePitch: 1
---- !u!82 &82448428465512195
+--- !u!82 &82334826693968428
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1861208193110101}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1926759842279663}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 5d2b0d979c8840c4db9d793a8db2a41f, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 8a3f3cb44c832b946a2ae53f4f19d979, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300012, guid: 3b4c381c34fe8a84a93335baa62e1701, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 4078ccd6b8318a844840da43756bfe3f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

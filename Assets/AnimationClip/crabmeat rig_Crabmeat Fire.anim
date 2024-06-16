@@ -4,8 +4,7 @@
 AnimationClip:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
   m_Name: crabmeat rig_Crabmeat Fire
   serializedVersion: 6
   m_Legacy: 0
@@ -10683,11 +10682,12 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
   m_Events:
   - time: 0.039062485
     functionName: SpawnEffect
     data: Attack A
-    objectReferenceParameter: {fileID: 11500000, guid: 6a2d7a249be352241ab409a7a979b28c,
+    objectReferenceParameter: {fileID: 11500000, guid: b6aa3a9eaac32fe4a3a05d8354846a19,
       type: 3}
     floatParameter: 0
     intParameter: 0
@@ -10695,7 +10695,7 @@ AnimationClip:
   - time: 0.9981633
     functionName: SpawnEffect
     data: Attack B
-    objectReferenceParameter: {fileID: 11500000, guid: 6a2d7a249be352241ab409a7a979b28c,
+    objectReferenceParameter: {fileID: 11500000, guid: b6aa3a9eaac32fe4a3a05d8354846a19,
       type: 3}
     floatParameter: 0
     intParameter: 0
@@ -10703,7 +10703,7 @@ AnimationClip:
   - time: 1.760845
     functionName: SpawnEffect
     data: Fire
-    objectReferenceParameter: {fileID: 11500000, guid: 6a2d7a249be352241ab409a7a979b28c,
+    objectReferenceParameter: {fileID: 11500000, guid: b6aa3a9eaac32fe4a3a05d8354846a19,
       type: 3}
     floatParameter: 0
     intParameter: 0

@@ -18,13 +18,13 @@ Material:
     - first:
         name: _LightMap
       second:
-        m_Texture: {fileID: 2800000, guid: 5b4b591137db67e419f25ca471f488e4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7a4f3eea2eb2aa543aa1bd1c1f021565, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: fedacbc5696a40346a98669f0580322d, type: 3}
+        m_Texture: {fileID: 2800000, guid: ffe8fccc8dd934644af0e3d0b5d5d445, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

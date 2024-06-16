@@ -3,25 +3,25 @@
 --- !u!1001 &100100000
 Prefab:
   serializedVersion: 2
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1866109926552790}
+  m_RootGameObject: {fileID: 1020301974402966}
   m_IsPrefabParent: 1
---- !u!1 &1866109926552790
+--- !u!1 &1020301974402966
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4090239183559109}
-  - 114: {fileID: 114070327963788641}
-  - 114: {fileID: 114612777101020118}
-  - 82: {fileID: 82587102175258672}
+  - 4: {fileID: 4828293719770817}
+  - 114: {fileID: 114856801713392940}
+  - 114: {fileID: 114544004296724132}
+  - 82: {fileID: 82837570210412852}
   m_Layer: 0
   m_Name: Pocky Voice
   m_TagString: Untagged
@@ -29,12 +29,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4090239183559109
+--- !u!4 &4828293719770817
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1866109926552790}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020301974402966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -129.18915, y: -13.57971, z: 593.2505}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -42,15 +42,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114070327963788641
+--- !u!114 &114856801713392940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1866109926552790}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020301974402966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 204c5274e4ad0944780f3c91f110cbe0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _tagContainer:
@@ -63,33 +63,33 @@ MonoBehaviour:
     m_Bits: 0
   _attachStartHeight: 0.1
   _attachDistance: 0.5
---- !u!114 &114612777101020118
+--- !u!114 &114544004296724132
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1866109926552790}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020301974402966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c899d051737a1b4f8ef5064096bba06, type: 3}
+  m_Script: {fileID: 11500000, guid: b511c4a8b05728ea1421d88d40cd8809, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _audioClips:
-  - {fileID: 8300000, guid: 7b81c370362dcd843b5151a7080b09c4, type: 3}
-  - {fileID: 8300000, guid: 65a4875ea64051c4b8ab7ff2e471d705, type: 3}
-  - {fileID: 8300000, guid: 9a186792032ddae4998bf64cbb32b277, type: 3}
-  - {fileID: 8300000, guid: 86c9bf351bbe57443a88a9a0e8663b63, type: 3}
-  - {fileID: 8300000, guid: cf32e954a99bdd94099517b2e16ad80b, type: 3}
---- !u!82 &82587102175258672
+  - {fileID: 8300000, guid: 20c5fa875fcfd60409e47c6350637f88, type: 3}
+  - {fileID: 8300000, guid: 02fa6f8d25e1bcb439edf73e454338db, type: 3}
+  - {fileID: 8300000, guid: 8947d879663d9a44094a8108c29f9d59, type: 3}
+  - {fileID: 8300000, guid: 0713060a3db48c44097ff9062d53f950, type: 3}
+  - {fileID: 8300000, guid: c819eaec112449549a181086d6997d0c, type: 3}
+--- !u!82 &82837570210412852
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1866109926552790}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020301974402966}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 5d2b0d979c8840c4db9d793a8db2a41f, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4ac62c082ed8bae449b9beaa656c3591, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300012, guid: 3b4c381c34fe8a84a93335baa62e1701, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 4fbd940264c7e6c4ea85c8498d154659, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1

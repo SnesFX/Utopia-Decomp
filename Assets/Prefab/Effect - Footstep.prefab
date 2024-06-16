@@ -3,25 +3,25 @@
 --- !u!1001 &100100000
 Prefab:
   serializedVersion: 2
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1438906264945108}
+  m_RootGameObject: {fileID: 1706326700350457}
   m_IsPrefabParent: 1
---- !u!1 &1438906264945108
+--- !u!1 &1706326700350457
 GameObject:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
   m_Component:
-  - 4: {fileID: 4012960815182760}
-  - 114: {fileID: 114333389299688335}
-  - 114: {fileID: 114707639405948648}
-  - 82: {fileID: 82704417414747876}
+  - 4: {fileID: 4653307533050953}
+  - 114: {fileID: 114319062367880405}
+  - 114: {fileID: 114714656491712427}
+  - 82: {fileID: 82868894081790808}
   m_Layer: 0
   m_Name: Effect - Footstep
   m_TagString: Untagged
@@ -29,12 +29,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4012960815182760
+--- !u!4 &4653307533050953
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1438906264945108}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706326700350457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.2667217, y: -0.00011427016, z: 639.04504}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -42,15 +42,15 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &114333389299688335
+--- !u!114 &114319062367880405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1438906264945108}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706326700350457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 204c5274e4ad0944780f3c91f110cbe0, type: 3}
+  m_Script: {fileID: 11500000, guid: 9bf9366cd39f96ee7e33dd329c7aae89, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _tagContainer:
@@ -63,32 +63,32 @@ MonoBehaviour:
     m_Bits: 1
   _attachStartHeight: 0.1
   _attachDistance: 0.5
---- !u!114 &114707639405948648
+--- !u!114 &114714656491712427
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1438906264945108}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706326700350457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c899d051737a1b4f8ef5064096bba06, type: 3}
+  m_Script: {fileID: 11500000, guid: b511c4a8b05728ea1421d88d40cd8809, type: 3}
   m_Name:
   m_EditorClassIdentifier:
   _audioClips:
-  - {fileID: 8300000, guid: d472db16f0f373f4ba1da638fa9aaac1, type: 3}
-  - {fileID: 8300000, guid: 345d2ac6277f77a42a52f0dc97c4428c, type: 3}
-  - {fileID: 8300000, guid: f65dd010f0ab43443b9f987f16fb5a82, type: 3}
-  - {fileID: 8300000, guid: ea5716275c9f6bd409bb65eb52252369, type: 3}
---- !u!82 &82704417414747876
+  - {fileID: 8300000, guid: a58ccafb808614d47b80192dd2c68620, type: 3}
+  - {fileID: 8300000, guid: 59ddb2181c0bcb5488e2c7c2a492c076, type: 3}
+  - {fileID: 8300000, guid: d2c91d3718cd6f249ba847b5de430c18, type: 3}
+  - {fileID: 8300000, guid: 39005761752715a4da35177f19d007eb, type: 3}
+--- !u!82 &82868894081790808
 AudioSource:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1438906264945108}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706326700350457}
   m_Enabled: 1
-  OutputAudioMixerGroup: {fileID: 24300000, guid: 5d2b0d979c8840c4db9d793a8db2a41f, type: 2}
-  m_audioClip: {fileID: 8300000, guid: d472db16f0f373f4ba1da638fa9aaac1, type: 3}
+  OutputAudioMixerGroup: {fileID: 24300012, guid: 3b4c381c34fe8a84a93335baa62e1701, type: 2}
+  m_audioClip: {fileID: 8300000, guid: a58ccafb808614d47b80192dd2c68620, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1

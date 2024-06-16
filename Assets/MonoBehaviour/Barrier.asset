@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39e080355e11149488e04bc14a1fac5a, type: 3}
+  m_Script: {fileID: 11500000, guid: 3352d74441837ce5aa07a47c120b35ed, type: 3}
   m_Name: Barrier
   m_EditorClassIdentifier:
   _displayName: Impact Effect
@@ -21,9 +21,9 @@ MonoBehaviour:
   _duration: 30
   _periodDuration: 0
   _maximumQuantity: 1
-  _barrierEffect: {fileID: 1727334078824860, guid: 03cf54e108a229b42b8b18aa922c9ca7, type: 2}
+  _barrierEffect: {fileID: 1019456775738921, guid: 20fb06d038434e44297539bd9a2c3c72, type: 2}
   _invulnerableEffect:
-    _behaviour: {fileID: 11400000, guid: fdaed76f518ae9c4c9ae0b1050183bfb, type: 2}
+    _behaviour: {fileID: 11400000, guid: 068c9e1b0f68cec49af7acac7c5b3037, type: 2}
     _magnitude: 0
     _quantity: 0
     _duration: 5
