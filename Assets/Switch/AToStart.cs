@@ -15,10 +15,16 @@ public class AToStart : MonoBehaviour {
 
     void Update () {
 
-        if(Input.GetKey(KeyCode.Joystick1Button0))
+        if(Input.GetKey(KeyCode.Joystick1Button1))
         {
             SceneManager.LoadScene("Sandbox");
-            // Sonic Utopia Para Nintendo Switch Android NSP
+            // Sonic Utopia Para Skyline Android NSP
+        }      
+
+        if(Input.GetKey(KeyCode.Joystick1Button0))
+        {
+            SceneManager.LoadScene("SUOnlineLobby");
+            // Sonic Utopia Online Para Skyline Android NSP
         }      
     }
 

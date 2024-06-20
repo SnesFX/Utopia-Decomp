@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Games/Sonic Utopia/Scenes/Main Menu/Main Menu.unity
     guid: c0fdf6343ec83984385b8c33d13732c9
-  - enabled: 0
+  - enabled: 1
     path: Assets/Sandbox/Sandbox.unity
     guid: 3ddb7dadce2a9054ba48c772b1f6a0c0
   - enabled: 1

@@ -2890,8 +2890,6 @@ GameObject:
   - component: {fileID: 8900097095422637605}
   - component: {fileID: 8900097095422637602}
   - component: {fileID: 1802442079041686018}
-  - component: {fileID: 5723776995842443622}
-  - component: {fileID: 3061887992289841153}
   m_Layer: 15
   m_Name: Saturn Sonic
   m_TagString: Untagged
@@ -3452,43 +3450,17 @@ MonoBehaviour:
   group: 0
   OwnerShipWasTransfered: 0
   prefixBackup: -1
-  synchronization: 1
+  synchronization: 0
   onSerializeTransformOption: 3
   onSerializeRigidBodyOption: 2
   ownershipTransfer: 0
   ObservedComponents:
-  - {fileID: 5723776995842443622}
+  - {fileID: 0}
   ObservedComponentsFoldoutOpen: 1
   viewIdField: 0
   instantiationId: -1
   currentMasterID: -1
   isRuntimeInstantiated: 0
---- !u!114 &5723776995842443622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8900097095422493499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63aae1adff6467246a44afd7b322c0e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isControllable: 1
-  _characterState: 0
---- !u!114 &3061887992289841153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8900097095422493499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50f802a09716a244ca97b7a2ffb5b22f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8900097095422493528
 GameObject:
   m_ObjectHideFlags: 0

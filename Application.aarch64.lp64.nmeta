@@ -12,15 +12,15 @@
   <Application>
     <Title>
       <Language>AmericanEnglish</Language>
-      <Name>SonicUtopia</Name>
-      <Publisher>BlitzDotCS</Publisher>
+      <Name>Sonic Utopia</Name>
+      <Publisher>SU Team &amp; TyDotCS</Publisher>
     </Title>
     <Icon>
       <Language>AmericanEnglish</Language>
       <IconPath>NX\Requirements\IconNew.bmp</IconPath>
     </Icon>
     <ReleaseVersion>0</ReleaseVersion>
-    <DisplayVersion>1.0</DisplayVersion>
+    <DisplayVersion>1.1</DisplayVersion>
     <StartupUserAccount>None</StartupUserAccount>
     <UserAccountSwitchLock>Disable</UserAccountSwitchLock>
     <SupportedLanguage>AmericanEnglish</SupportedLanguage>
