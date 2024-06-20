@@ -1,33 +1,51 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="WorkerInGame.cs" company="Exit Games GmbH">
-//   Part of: Photon Unity Networking
-// </copyright>
-// --------------------------------------------------------------------------------------------------------------------
-
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SonicOnline : Photon.MonoBehaviour
 {
-    public Transform sonicUtopiasonic;
+    public Transform playerPrefab;
 
     public void Awake()
     {
-        // in case we started this demo with the wrong scene being active, simply load the menu scene
-        if (!PhotonNetwork.connected)
+        // Check if playerPrefab is assigned
+        if (playerPrefab == null)
         {
-            SceneManager.LoadScene("MainMenu");
+            Debug.LogError("Player Prefab is not assigned in the Inspector!");
             return;
         }
 
+        // in case we started this demo with the wrong scene being active, simply load the menu scene
+        if (!PhotonNetwork.connected)
+        {
+            Debug.Log("Photon Not Connected, Returning to Lobby!");
+            SceneManager.LoadScene("SUOnlineLobby");
+            return;
+        }
+
+        Debug.Log("Loading Sonic");
+
+        // Log the name of the prefab to be instantiated
+        Debug.Log("Prefab name: " + this.playerPrefab.name);
+
         // we're in a room. spawn a character for the local player. it gets synced by using PhotonNetwork.Instantiate
-        PhotonNetwork.Instantiate(this.sonicUtopiasonic.name, transform.position, Quaternion.identity, 0);
+        var instantiatedPlayer = PhotonNetwork.Instantiate(this.playerPrefab.name, transform.position, Quaternion.identity, 0);
+
+        // Log whether the player was successfully instantiated
+        if (instantiatedPlayer != null)
+        {
+            Debug.Log("Player instantiated successfully.");
+        }
+        else
+        {
+            Debug.LogError("Failed to instantiate player.");
+        }
     }
 
     public void OnGUI()
     {
         if (GUILayout.Button("Return to Lobby"))
         {
+            Debug.Log("Leaving game!");
             PhotonNetwork.LeaveRoom();  // we will load the menu level when we successfully left the room
         }
     }
@@ -44,13 +62,14 @@ public class SonicOnline : Photon.MonoBehaviour
             // to check if this client is the new master...
             if (player.IsLocal)
             {
+                Debug.Log("Masta.");
                 message = "You are Master Client now.";
             }
             else
             {
+                Debug.Log("no masta");
                 message = player.NickName + " is Master Client now.";
             }
-
 
             chatComponent.AddLine(message); // the Chat method is a RPC. as we don't want to send an RPC and neither create a PhotonMessageInfo, lets call AddLine()
         }
@@ -61,7 +80,7 @@ public class SonicOnline : Photon.MonoBehaviour
         Debug.Log("OnLeftRoom (local)");
 
         // back to main menu
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("SUOnlineLobby");
     }
 
     public void OnDisconnectedFromPhoton()
@@ -69,7 +88,7 @@ public class SonicOnline : Photon.MonoBehaviour
         Debug.Log("OnDisconnectedFromPhoton");
 
         // back to main menu
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("SUOnlineLobby");
     }
 
     public void OnPhotonInstantiate(PhotonMessageInfo info)
@@ -92,6 +111,6 @@ public class SonicOnline : Photon.MonoBehaviour
         Debug.Log("OnFailedToConnectToPhoton");
 
         // back to main menu
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("SUOnlineLobby");
     }
 }
