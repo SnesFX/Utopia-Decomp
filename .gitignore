@@ -6,3 +6,4 @@ SwitchIL2CPPCache/
 SwitchIL2CPPStats/
 *.nsp
 *.nss
+/Temp
