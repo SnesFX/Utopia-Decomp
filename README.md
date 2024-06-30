@@ -12,15 +12,11 @@
 
 # Ports
 
-* [PsVita](https://github.com/SnesFX/Sonic-Utopia-Vita-Builds/releases/tag/final) - By Nat
+* [PsVita](https://github.com/SnesFX/Sonic-Utopia-Vita-Builds/releases/tag/final) - By Ty
 
-* [Wii U](https://github.com/ghbbeep/Utopia-Decomp-WiiU) - By MemeMaster9000 & Nat
+* [Wii U](https://github.com/ghbbeep/Utopia-Decomp-WiiU) - By MemeMaster9000 & Ty
 
-* [Nintendo Switch](https://github.com/SnesFX/Utopia-Decomp/tree/switch) By Nat - DLC COMING SOON
-
-* [MacOS](https://github.com/SnesFX/Utopia-Decomp/tree/macOS) - By Nat - COMING SOON
-
-* [Mobile](https://github.com/SnesFX/Utopia-Decomp/tree/mobile) - By Nat - COMING SOON
+* [Nintendo Switch](https://github.com/SnesFX/Utopia-Decomp/tree/switch) By Ty - DLC COMING SOON
 
 # Requirements
 
