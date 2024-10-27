@@ -1,3 +1,11 @@
+# README BEFORE USING
+
+* This was one of my first Unity Game decompilations so this MAY be buggy and or unstable at times.
+
+* I do plan on redoing this once I'm done with my Rhythm Game (Moon4K).
+
+* That's all, enjoy!
+
 # Utopia Decomp
 
 * This repo was made for my Sonic Utopia Decompilation.
